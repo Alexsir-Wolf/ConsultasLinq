@@ -124,7 +124,20 @@ namespace ConsultasLinq
 
             //JOIN E GROUPBY
             #region
+            //var consult = from products in ProductList
+            //              orderby products.IdCategory ascending
+            //              join productsCategory in CategoryList
+            //              on products.IdCategory equals productsCategory.Id
+            //              select new
+            //              {
+            //                  Product = products,
+            //                  Category = productsCategory
+            //              };
 
+            //foreach(var result in consult)
+            //{
+            //    Console.WriteLine($"{result.Product.Name} | {result.Category.Name}");
+            //}
             #endregion
 
         }
